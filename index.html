@@ -10,20 +10,17 @@
         <div id="BigContainer">
 
             <div class="Ryan">
-              <body> Ryan's Widget</body>
-              <style>
-                color:red;
-                font-size:25px;
-              </style>
+              <body style=color:blue;font-size:25px;> Ryan's Widget
+              </body>
+
               <input type="text" placeholder="Dumb or nah" name="ye">
               <button onClick="move()">submit</button>
 
-              <div class="empty">
-              <div id="myBar" class="load" style="height:24px;width:0"></div>
+              <div id="myProgress">
+                <div id="myBar"></div>
               </div>
-
               <script>
-function move() {
+              function move() {
   var elem = document.getElementById("myBar");
   var width = 1;
   var id = setInterval(frame, 10);
@@ -37,6 +34,7 @@ function move() {
   }
 }
 </script>
+
             </div>
 
 
