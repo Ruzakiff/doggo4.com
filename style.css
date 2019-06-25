@@ -11,6 +11,9 @@ div {
     float: left;
     background-color: green;
 }
+#BigContainer{
+  align-self: center;
+}
 header {
     height: 10%;
 }
