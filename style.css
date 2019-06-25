@@ -6,7 +6,7 @@ html, body{
 div {
     height: 33%;
     width: 33%;
-    border: 2px;
+    border: 10px;
     border-color: black;
     float: left;
     background-color: green;
