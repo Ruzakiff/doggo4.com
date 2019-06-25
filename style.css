@@ -12,7 +12,14 @@ div {
     background-color: green;
 }
 #BigContainer{
-  align-self: center;
+  position: absolute;
+ left: 50%;
+ top: 50%;
+ text-align: center;
+ width:546px;
+ height:265px;
+ margin-left: -273px; /*half width*/
+ margin-top: -132px; /*half height*/
 }
 header {
     height: 10%;
