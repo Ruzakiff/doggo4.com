@@ -16,12 +16,27 @@
                 font-size:25px;
               </style>
               <input type="text" placeholder="Dumb or nah" name="ye">
-              <button>submit</button>
-              
+              <button onClick="move()">submit</button>
+
               <div class="empty">
               <div id="myBar" class="load" style="height:24px;width:0"></div>
               </div>
 
+              <script>
+function move() {
+  var elem = document.getElementById("myBar");
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+    }
+  }
+}
+</script>
             </div>
 
 
