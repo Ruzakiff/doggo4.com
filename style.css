@@ -21,6 +21,9 @@ div {
  margin-left: -273px; /*half width*/
  margin-top: -132px; /*half height*/
 }
+#ryan{
+  background-color: red;
+}
 header {
     height: 10%;
 }
