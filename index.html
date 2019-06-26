@@ -13,38 +13,15 @@
               <body>Ryan's Widget</body>
 
               <input type="text" placeholder="Dumb or nah" name="ye">
-              <button onClick="move()">submit</button>
+              <button id="trig" onClick="move()">submit</button>
 
               <div id="myProgress">
                 <div id="myBar"></div>
               </div>
-              <script>
-              function move() {
-                var elem = document.getElementById("myBar");
-                var width = 1;
-                var id = setInterval(frame, 10);
-                function frame() {
-                  if (width >= 100) {
-                    clearInterval(id);
-                  } else {
-                    width++;
-                    elem.style.width = width + '%';
-                    elem.innerHTML = width * 1 + '% Dumb';
-                    if(width%10==0){
-                      elem.style.backgroundColor=getRandomColor();
-                    }
-                  }
-                }
-              }
-              function getRandomColor() {
-  var letters = '0123456789ABCDEF';
-  var color = '#';
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
-              </script>
+              <p id="d" style=opacity:0;color:red;font-size:40px;>Dumb</p>
+
+              <script src="ryan.js"></script>
+
 
             </div>
 

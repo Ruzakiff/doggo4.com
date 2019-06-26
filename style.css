@@ -21,6 +21,8 @@ div {
  margin-left: -273px; /*half width*/
  margin-top: -132px; /*half height*/
 }
+
+/*BEGIN CUSTOM CODE*/
 .Ryan{
   background-color: red;
 }
