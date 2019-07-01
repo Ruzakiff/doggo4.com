@@ -41,3 +41,28 @@ header {
   height: 30px;
   background-color: blue;
 }
+
+
+/*rob stuff */
+.Rob {
+  cursor: pointer;
+  display: table;
+
+  background-image: url('./RobStuff/images/feelsbadman.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Rob:hover {
+  background-image: url('./RobStuff/images/feelsgoodman.png');
+}
+
+.Rob #backgroundWords {
+  z-index: -1;
+  overflow-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
